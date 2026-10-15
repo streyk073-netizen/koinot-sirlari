@@ -1,0 +1,44 @@
+/* Bosh sahifadagi 2 ta menyu tugmalari uchun yangi stillar */
+.welcome-container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.button-zone {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.space-btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    transition: all 0.4s ease;
+    display: inline-block;
+}
+
+/* O'rganish tugmasi uchun ko'k neon */
+.learn-glow {
+    border: 2px solid #00d2ff;
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.2);
+}
+.learn-glow:hover {
+    box-shadow: 0 0 30px #00d2ff;
+    background: rgba(0, 210, 255, 0.2);
+}
+
+/* Viktorina tugmasi uchun binafsha neon + zloveshchiy effekt */
+.quiz-glow {
+    border: 2px solid #a100ff;
+    box-shadow: 0 0 15px rgba(161, 0, 255, 0.2);
+}
+.quiz-glow:hover {
+    box-shadow: 0 0 30px #a100ff;
+    background: rgba(161, 0, 255, 0.2);
+}
